@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Khader-X/kx-publish-pypi/ci.yml)](https://github.com/Khader-X/kx-publish-pypi/actions)
 
-> ✨ **A friendly CLI tool to check and publish Python packages to TestPyPI/PyPI** in 30 seconds! 🚀
+> ✨ **A friendly CLI tool to check and publish Python packages to TestPyPI/PyPI in 30 seconds!** 🚀
 
 **Version 1.0.0** | **Author: ABUELTAYEF Khader** | **Python 3.9+**
 
@@ -17,15 +17,14 @@
 
 ## 🚀 Installation
 
-### Quick Install
+### ✅ Quick Install
 ```bash
 pip install kx-publish-pypi
 ```
 
-### Verify Installation
+### ✅ Verify Installation
 ```bash
 kx-publish-pypi --version
-# Should show: kx-publish-pypi 1.0.0
 ```
 
 ### Installation Demo
@@ -35,7 +34,7 @@ kx-publish-pypi --version
 
 ## 🚀 Quick Start
 
-### 1. Complete Guided Workflow (Recommended)
+### 1. Complete Guided Workflow (**Recommended**)
 ```bash
 kx-publish-pypi run
 ```
