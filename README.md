@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h1>🚀 KX-Publish-PyPI</h1>
+  <h1>KX-Publish-PyPI</h1>
   <p><em>The Professional CLI Tool for Python Package Publishing</em></p>
 </div>
 
@@ -17,7 +17,7 @@
 
 <div align="center">
   <h3>⚡ <strong>Publish Python packages to PyPI in under 30 seconds!</strong> ⚡</h3>
-  <p><strong>Version 1.0.0</strong> | <strong>Author: ABUELTAYEF Khader</strong> | <strong>Python 3.9+</strong></p>
+  <p><strong>Version 1.0.1</strong> | <strong>Author: ABUELTAYEF Khader</strong> | <strong>Python 3.9+</strong></p>
 </div>
 
 ---
