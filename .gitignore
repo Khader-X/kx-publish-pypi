@@ -148,6 +148,9 @@ cython_debug/
 # e.g., internal/backup/ if not to commit
 # external/libs/ if vendor code not to commit
 
+khader_info.md
+.github/instructions/
+
 # OS generated files
 .DS_Store
 .DS_Store?
