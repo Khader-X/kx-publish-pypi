@@ -32,6 +32,48 @@ kx-publish-pypi --version
 
 ---
 
+## � Account Setup & Token Generation
+
+Before you can publish packages, you'll need to create accounts on PyPI and TestPyPI, and generate API tokens.
+
+### 1. Create PyPI Account
+1. Go to [pypi.org](https://pypi.org/)
+2. Click "Register" in the top right
+3. Fill out the registration form
+4. Verify your email address
+
+### 2. Create TestPyPI Account
+1. Go to [test.pypi.org](https://test.pypi.org/)
+2. Click "Register" in the top right
+3. Fill out the registration form
+4. Verify your email address
+
+### 3. Generate API Tokens
+
+#### For PyPI:
+1. Log in to [pypi.org](https://pypi.org/)
+2. Go to Account Settings → API tokens
+3. Click "Add API token"
+4. Give it a name (e.g., "kx-publish-pypi")
+5. Copy the token (you won't see it again!)
+
+#### For TestPyPI:
+1. Log in to [test.pypi.org](https://test.pypi.org/)
+2. Go to Account Settings → API tokens
+3. Click "Add API token"
+4. Give it a name (e.g., "kx-publish-pypi-test")
+5. Copy the token
+
+### 4. Store Tokens Securely
+Use the CLI to store your tokens securely:
+```bash
+kx-publish-pypi setup-tokens
+```
+
+This will prompt you to enter your TestPyPI and PyPI tokens, which will be stored in your system's keyring.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Complete Guided Workflow (**Recommended**)
