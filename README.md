@@ -17,7 +17,7 @@
 
 <div align="center">
   <h3>⚡ <strong>Publish Python packages to PyPI in under 30 seconds!</strong> ⚡</h3>
-  <p><strong>Version 1.0.1</strong> | <strong>Author: ABUELTAYEF Khader</strong> | <strong>Python 3.9+</strong></p>
+  <p><strong>Author: ABUELTAYEF Khader</strong> | <strong>Python 3.9+</strong></p>
 </div>
 
 ---
