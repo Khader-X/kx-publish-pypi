@@ -89,7 +89,7 @@ if result.version_info:
 
 <div align="center">
 
-**Powered by [KhaderX](https://KhaderX.com/)**
+**Powered by [KhaderX](https://KhaderX.com/)** | 
 **Founder [ABUELTAYEF Khader](https://github.com/KhaderX-com)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Khader--X-blue)](https://github.com/Khader-X)
