@@ -89,12 +89,11 @@ if result.version_info:
 
 <div align="center">
 
-**Powered by [ABUELTAYEF Khader](https://github.com/Khader-X)**
+**Powered by [KhaderX](https://KhaderX.com/)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Khader--X-blue)](https://github.com/Khader-X)
 [![Website](https://img.shields.io/badge/Website-KhaderX.com-blue)](https://KhaderX.com/)
 [![PyPI](https://img.shields.io/badge/PyPI-KhaderX-orange)](https://pypi.org/user/KhaderX/)
-[![Blog](https://img.shields.io/badge/Blog-KhaderX-green)](https://khaderabueltayef.blogspot.com/)
 
 **⭐ Star this repo if you find it useful!**
 
