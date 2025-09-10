@@ -33,15 +33,20 @@ This project follows a code of conduct to ensure a welcoming environment for all
    git clone https://github.com/your-username/kx-publish-pypi.git
    cd kx-publish-pypi
    ```
-3. **Create a virtual environment**:
+3. **Create and activate a virtual environment**:
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   # On Windows PowerShell:
+   .venv\Scripts\Activate.ps1
+   # On macOS/Linux:
+   source .venv/bin/activate
    ```
 4. **Install dependencies**:
    ```bash
    pip install -e ".[dev]"
    ```
+
+**⚠️ Important**: Always work within the activated `.venv` environment for all development tasks.
 
 ## 🛠️ Development Setup
 
@@ -54,12 +59,25 @@ This project follows a code of conduct to ensure a welcoming environment for all
 ### Installing Development Dependencies
 
 ```bash
+# Always activate the virtual environment first
+# On Windows PowerShell:
+.venv\Scripts\Activate.ps1
+# On macOS/Linux:
+source .venv/bin/activate
+
 # Install the package in development mode with all extras
 pip install -e ".[dev]"
 
-# Install pre-commit hooks
+# Install pre-commit hooks (optional)
 pre-commit install
 ```
+
+### Development Workflow Requirements
+
+- **Always use the sequential thinking tool** (`#sequentialthinking`) for planning and managing tasks
+- **Always work within the `.venv` environment** - never install or run code outside it
+- **Use structured to-do lists** for managing complex tasks
+- **Plan ahead** and anticipate future needs when making changes
 
 ## 💡 How to Contribute
 
@@ -81,10 +99,11 @@ pre-commit install
    git checkout -b fix/issue-number-description
    ```
 3. **Make your changes**
-4. **Write tests** for new functionality
+4. **Write tests** for new functionality using `if __name__ == '__main__'` blocks
 5. **Run the test suite**:
    ```bash
-   pytest
+   # Run tests using Python's main block execution
+   python src/kx_publish_pypi/module_to_test.py
    ```
 6. **Format your code**:
    ```bash
@@ -137,30 +156,73 @@ Types:
 - **Constants**: `UPPER_SNAKE_CASE`
 - **Files**: `snake_case.py`
 
+### Code Quality Standards
+
+- **Type Hints**: Always use comprehensive type annotations
+- **Docstrings**: Provide docstrings for all functions, classes, and modules
+- **Code Splitting**: Split code into multiple files when modules grow too large
+- **Type Checking**: Never use `# type: ignore` comments or `from __future__ import annotations`
+- **Forward Thinking**: Plan ahead and anticipate future needs when implementing features
+- **Structured Development**: Use to-do lists and task management for complex changes
+
+### Development Best Practices
+
+- Break down complex tasks into manageable steps
+- Suggest improvements and optimizations proactively
+- Follow an encouraging, ideas-focused development approach
+- Maintain high code quality and readability standards
+- Consider performance, architecture, and maintainability in all changes
+
 ## 🧪 Testing
+
+### Testing Philosophy
+
+This project uses Python's built-in `if __name__ == '__main__'` blocks for testing instead of external testing frameworks. This approach:
+
+- Keeps dependencies minimal
+- Allows for quick, focused testing during development
+- Supports unit, integration, and usage testing patterns
+- Encourages test-driven development practices
 
 ### Running Tests
 
 ```bash
-# Run all tests
-pytest
+# Activate virtual environment first
+.venv\Scripts\Activate.ps1  # Windows PowerShell
+# or
+source .venv/bin/activate   # macOS/Linux
 
-# Run with coverage
-pytest --cov=src/kx_publish_pypi
+# Run specific module tests
+python src/kx_publish_pypi/checks.py
+python src/kx_publish_pypi/version_detection.py
 
-# Run specific test file
-pytest tests/test_specific_feature.py
-
-# Run tests in verbose mode
-pytest -v
+# Run example usage tests
+python tests/example_api_usage.py
+python tests/test_enhanced_version_detection.py
 ```
 
 ### Writing Tests
 
+- **Unit Tests**: Test individual functions and classes using `if __name__ == '__main__'` blocks
+- **Integration Tests**: Test module interactions and workflows
+- **Usage Tests**: Test real-world usage scenarios and examples
+
+Example test structure:
+```python
+def test_function_name():
+    """Test description"""
+    # Test implementation
+    pass
+
+if __name__ == '__main__':
+    test_function_name()
+    print("All tests passed!")
+```
+
 - Write tests for all new features
-- Use descriptive test names
-- Follow the existing test structure
-- Aim for high test coverage (>80%)
+- Use descriptive test names and docstrings
+- Follow the existing test patterns in the codebase
+- Include both positive and negative test cases
 
 ## 🔄 Submitting Changes
 
@@ -224,9 +286,12 @@ For feature requests, please include:
 
 If you need help or have questions:
 
-- 📧 **Email**: khader@example.com
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Khader-X/kx-publish-pypi/discussions)
+- 📧 **Email**: abueltayef.khader@gmail.com
+- 📧 **Email**: contact@khaderx.com
+- 🌐 **Website**: https://KhaderX.com/
+- 💬 **GitHub Discussions**: [GitHub Discussions](https://github.com/Khader-X/kx-publish-pypi/discussions)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/Khader-X/kx-publish-pypi/issues)
+- 📱 **Phone**: +32 483 817 658 (Belgium)
 
 ## 🙏 Recognition
 
@@ -234,5 +299,16 @@ Contributors will be recognized in:
 - The project's README.md
 - Release notes
 - Future documentation
+
+## 💡 Suggestions & Improvements
+
+We encourage all contributors to:
+- **Propose optimizations** for performance, architecture, or user experience
+- **Suggest new features** that would benefit the community
+- **Recommend best practices** for coding and development workflows
+- **Identify opportunities** for code refactoring or modernization
+- **Share innovative ideas** that push the project forward
+
+Your suggestions help make KX-Publish-PyPI better for everyone! 🚀
 
 Thank you for contributing to KX-Publish-PyPI! 🎉
