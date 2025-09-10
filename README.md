@@ -62,7 +62,7 @@ kx-publish-pypi publish-prod
 
 ## ✨ Key Features
 
-- 🎨 **Beautiful Interface** - Rich, colorful output with progress bars
+- 🎨 **Rich Interface** - Rich, colorful output with progress bars
 - 🔍 **Smart Pre-checks** - Validates package structure and configuration
 - 🔐 **Secure Token Storage** - Uses system keyring for API tokens
 - 📦 **Enhanced Version Detection** - Supports all modern Python build backends
