@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo/logo-2-1.png" alt="KX-Publish-PyPI Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/Khader-X/kx-publish-pypi/master/logo/logo-2-1.png" alt="KX-Publish-PyPI Logo" width="200"/>
 </div>
 
 <div align="center">
@@ -50,11 +50,6 @@ pip install kx-publish-pypi
 ```bash
 kx-publish-pypi --version
 ```
-
-### 🎬 Installation Demo
-<div align="center">
-  <img src="screenshots/kx-publish-pypi_video_installation_version.gif" alt="Installation & Version Check Demo" width="600"/>
-</div>
 
 ---
 
@@ -235,5 +230,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </div>
 
 <div align="center">
-  <img src="logo/logo-2-1.png" alt="KX-Publish-PyPI Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/Khader-X/kx-publish-pypi/master/logo/logo-2-1.png" alt="KX-Publish-PyPI Logo" width="150"/>
 </div>
